@@ -3,7 +3,9 @@ nginx
 k8s.gcr.io/kube-state-metrics/kube-state-metrics:v2.0.0
 xhofe/alist:latest
 python:alpine:latest
-docker pull pixman/pixman-armv7
+pixman/pixman-armv7:latest
+
 #支持指定架构
 --platform=linux/arm64 xiaoyaliu/alist
---platform=linux/armv7 pixman/pixman-armv7
+--platform=linux/armv7
+
