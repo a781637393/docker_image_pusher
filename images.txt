@@ -6,5 +6,6 @@ pixman/pixman-armv7:latest
 
 #支持指定架构
 --platform=linux/arm64 xiaoyaliu/alist
---platform=linux/armv7
+--platform=linux/armv7 pixman/pixman-armv7
+
 
